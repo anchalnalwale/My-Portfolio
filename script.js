@@ -68,10 +68,11 @@ document.addEventListener('DOMContentLoaded', function () {
     type();
 
     const skillsData = {
+        languages: ['C', 'C++' , 'Java'],
         frontend: ['HTML5', 'CSS3', 'JavaScript ', 'React', 'Tailwind CSS'],
         backend: ['Node.js', 'Express.js'],
         database: ['MongoDB', 'MySQL'],
-        tools: ['Git & GitHub', 'LeetCode', 'HackerRank']
+        tools: ['Git & GitHub', 'LeetCode', 'HackerRank', 'GFG']
     };
 
     const skillsContent = document.getElementById('skills-content');
