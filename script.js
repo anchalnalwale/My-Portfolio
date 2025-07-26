@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         languages: ['C', 'C++' , 'Java'],
         frontend: ['HTML5', 'CSS3', 'JavaScript ', 'React', 'Tailwind CSS'],
         backend: ['Node.js', 'Express.js'],
-        database: ['MongoDB', 'MySQL'],
+        database: ['MongoDB', 'MySQL' ,'AWS'],
         tools: ['Git & GitHub', 'LeetCode', 'HackerRank', 'GFG']
     };
 
