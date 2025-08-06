@@ -110,10 +110,10 @@ document.addEventListener('DOMContentLoaded', function () {
         skillsChartInstance = new Chart(ctx, {
             type: 'radar',
             data: {
-                labels: ['Frontend', 'Backend', 'Databases', 'DevOps', 'Problem Solving', 'UI/UX Design'],
+                labels: ['Frontend', 'Backend', 'Databases', 'Problem Solving', 'UI/UX Design'],
                 datasets: [{
                     label: 'Proficiency',
-                    data: [90, 85, 80, 65, 88, 75],
+                    data: [90, 85, 80, 88, 75],
                     backgroundColor: 'rgba(56, 189, 248, 0.2)',
                     borderColor: pointColor,
                     pointBackgroundColor: pointColor,
